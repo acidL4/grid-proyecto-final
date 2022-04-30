@@ -76,8 +76,12 @@
       <div class="form-prueba div-1 mb-5 ">
         <h2 class="container contact_header my-3 ">Contact Form</h2>
 
-        <form name="contact" method="post" data-netlify="true" class="container form-container">
-
+        <form name="contact" method="post" data-netlify="true" netlify-honeypot="bot-field" class="container form-container">
+          <p class="hidden">
+            <label>
+              Dont fill this out if youre human: <input name="bot-field" />
+            </label>
+          </p>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Name <input type="text" class="form-control" name="name" ></label>
                 
