@@ -1,5 +1,6 @@
 @import '../base/mixins';
 @import '../base/mapas';
+@import '../base/variables';
 
 .carousel-item img { /*Se agrega para arreglar height imgs carousel*/
     object-fit: cover;
@@ -25,18 +26,37 @@
 }
 
 .store-p{
-    #map{    
-    border-radius: map-get($map: $prueba-map, $key: border-radius-map );
-    background-color: map-get($map: $prueba-map, $key: background-color-map);
-    border: map-get($map: $prueba-map, $key: border-map );
-    }
+
     margin-top: 15px;
+    background-color: $title-bg;
+    border-radius: 5px;
+
    
     padding: 25px;
     width: 45%;
     align-items: center;
     p{
         font-family: 'Bebas Neue', cursive;
-        color: black;
+        color: $title-color;
     }
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

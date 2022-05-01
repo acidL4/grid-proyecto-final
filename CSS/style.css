@@ -11184,6 +11184,7 @@ header ul .list_item .boton_prueba {
 body {
   background-image: url(/images/pexels-cottonbro-3826435.jpg);
   color: #AAA0A0;
+  width: 100%;
 }
 
 /*Colors*/
@@ -11199,9 +11200,10 @@ body {
 
 footer {
   background-color: #AAA0A0;
+  margin-top: 3rem;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   position: fixed;
   right: 0;
   bottom: 0;
@@ -11213,7 +11215,7 @@ footer .footer_item {
   justify-content: center;
   margin: 0;
   align-items: center;
-  font-family: "Inconsolata", monospace;
+  font-family: "Bebas Neue", cursive;
   font-size: small;
 }
 footer .logo_footer {
@@ -11385,6 +11387,17 @@ font-family
 font-size
 font-weight
 */
+/*Colors*/
+/*Fonts*/
+/*Width*/
+.w-45 {
+  width: 45%;
+}
+
+.width-90 {
+  width: 90%;
+}
+
 .carousel-item img {
   /*Se agrega para arreglar height imgs carousel*/
   object-fit: cover;
@@ -11407,18 +11420,35 @@ font-weight
 
 .store-p {
   margin-top: 15px;
+  background-color: aliceblue;
+  border-radius: 5px;
   padding: 25px;
   width: 45%;
   align-items: center;
 }
-.store-p #map {
-  border-radius: 10px;
-  background-color: aliceblue;
-  border: 3px solid black;
-}
 .store-p p {
   font-family: "Bebas Neue", cursive;
   color: black;
+}
+
+.video-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.video-container::after {
+  padding-top: 56.25%;
+  display: block;
+  content: "";
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* From cssbuttons.io */
@@ -11522,7 +11552,7 @@ button:hover .button-text {
   }
 
   .media-hide {
-    display: none;
+    display: none !important;
   }
 }
 /* @media desktop*/
