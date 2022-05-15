@@ -95,7 +95,7 @@
     <div class="card-body">
  
       <div class="container">
-      <form id="contact-form" role="form">
+      <form name="contact" method="post" data-netlify="true" id="contact-form" role="form">
 
       
 
@@ -113,12 +113,14 @@
                   <div class="form-group mt-3">
                       <label for="form_phone">Phone number</label>
                       <input id="form_phone"  name="phone" class="form-control" placeholder="Please enter your phone *" required="required" data-error="Phone number is required.">
-                                                      </div>
+                  </div>
               </div>
           </div>
           <div class="row">
               <div class="col-md-6 mt-3">
                   <div class="form-group">
+                    <input type="hidden" name="form-name" value="contact">
+
                       <label for="form_email">Email *</label>
                       <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
                       
