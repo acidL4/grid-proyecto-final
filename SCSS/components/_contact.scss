@@ -8,7 +8,7 @@
     
     height: 100px;
     max-width: 100%;
-    resize: none;
+
 }
 .form-group{
     color: $title-bg;
@@ -16,10 +16,11 @@
     font-weight: bolder;
 }
 
-.boton-submit{
-    color: #fff;
-    background-color: #0d6efd;
-    border-color: #0d6efd;
+
+.boton-form{
+    color: black;
+    font-family: $title-font;
+
 }
 .card-body{
     padding: 0;
