@@ -3,18 +3,24 @@
 
 
 
-.form-section{
+
+.form-resize{
+    
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+.form-group{
     color: $title-bg;
     font-family: $title-font;
     font-weight: bolder;
-    
-    
-            h2{
-                @extend %titles;
-                text-align: center;
+}
 
-
-            }
-        }
-
-
+.boton-submit{
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+.card-body{
+    padding: 0;
+}

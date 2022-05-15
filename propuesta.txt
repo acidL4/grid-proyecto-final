@@ -1,0 +1,48 @@
+Buenas tardes! Viendo su proyecto les acerco la siguiente propuesta:
+
+Incluye:
+
+- Un diseño moderno y funcional a sus necesidades que contendra lo siguiente:
+	
+	1. Inicio, con informacion general sobre el local.
+	2. Seccion de barberia con lista de precios y fotos de muestra.
+	3. Seccion de tattoo studio con informacion sobre cada artista.
+	4. Una store con carrito de compras.
+	5. Contact form para consultas de clientes y solicitar turnos.
+
+- El diseño será responsivo en vista mobile. 
+- SEO para posicionamiento durante las busquedas de futuros clientes.
+- Se integrará OpenGraph para mejorar la vista cuando la web se comparta por redes sociales.
+
+No incluye:
+
+- Hosting / Dominio.
+- Redaccion de contenido.
+- Material de diseño (logo, imagenes, etc).
+- Revisiones o mantenimiento post-entrega.
+
+
+Metodo de trabajo:
+
+- Se espera tener la web terminada en 1 mes, durante ese tiempo se realizaran 3 preentregas para discutir correcciones o cambios.
+
+
+Valor:
+
+$65000
+
+
+Forma de pago:
+
+Adelanto 50% y pago del restante al finalizar la web.
+
+
+
+Espero que podamos trabajar juntos para darles la web que se merecen!
+
+
+Saludos cordiales
+ATTE
+
+Lautaro Sanz Orlando
+

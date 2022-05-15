@@ -1,4 +1,5 @@
 @import '../base/mixins';
+@import '../base/variables';
 .store-prueba{
     
 
@@ -23,11 +24,28 @@
         color: $title-color;
         font-family: $title-font;
         text-align: center;
-        font-size: $title-size;
-  
-        
-        
-  
+        font-size: $title-size;        
 }
 
-
+.card{
+    
+    .card-body{
+        padding: 1rem;
+        .card-title{
+            font-family: $title-font;
+            color: $title-color;
+            font-size: 2rem;
+           
+        }
+        .card-text{
+            color: $title-color;
+            font-family: $paragraph-font;
+            font-weight: bolder;
+            margin-bottom: .5rem;
+     
+        }
+        h5{
+            color: black;
+        }
+    }
+}
