@@ -11575,6 +11575,11 @@ button:hover .button-text {
   color: #fff;
 }
 
+.book-boton {
+  text-decoration: none;
+  all: unset;
+}
+
 @media screen and (max-width: 968px) {
   .media-centrado {
     display: flex;
