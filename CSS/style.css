@@ -11534,7 +11534,6 @@ font-weight
   position: relative;
   transition: all 0.5s;
   z-index: 1;
-  text-decoration: none !important;
   margin-left: 3rem;
 }
 
@@ -11548,6 +11547,7 @@ font-weight
   background-color: white;
   z-index: -1;
   transition: all 0.5s;
+  color: inherit;
 }
 
 .contact-button:hover::before {
@@ -11560,6 +11560,12 @@ font-weight
 
 .contact-button:active:before {
   background: #b9b9b9;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /*Colors*/
