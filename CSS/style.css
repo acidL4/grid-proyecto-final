@@ -212,6 +212,20 @@ font-weight
   margin-bottom: 4rem;
 }
 
+.submit {
+  color: white;
+  background-color: #0d6efd;
+  border-radius: 3px;
+  padding: 0.5rem;
+}
+
+.clear {
+  color: white;
+  background-color: #6c757d;
+  border-radius: 3px;
+  padding: 0.5rem;
+}
+
 /*Colors*/
 /*Fonts*/
 /*Width*/
