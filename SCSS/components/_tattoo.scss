@@ -21,10 +21,16 @@
     .artist{
         font-weight: bold;
         font-family: $title-font;
+        text-shadow: 3px 3px black;
+        font-size: 3rem;
     
     }
     .mote{
-        font-style: italic;
+     
+        font-weight: bolder;
     }
 }
 
+.insta_logo{
+    width: 40px;
+}

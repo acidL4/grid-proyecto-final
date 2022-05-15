@@ -11363,9 +11363,15 @@ font-weight
 .content_bio .artist {
   font-weight: bold;
   font-family: "Bebas Neue", cursive;
+  text-shadow: 3px 3px black;
+  font-size: 3rem;
 }
 .content_bio .mote {
-  font-style: italic;
+  font-weight: bolder;
+}
+
+.insta_logo {
+  width: 40px;
 }
 
 /*Colors*/
@@ -11573,6 +11579,7 @@ button:hover .circle .icon.arrow {
 
 button:hover .button-text {
   color: #fff;
+  vertical-align: middle;
 }
 
 .book-boton {
@@ -11607,6 +11614,49 @@ button:hover .button-text {
     width: 55%;
   }
 }
+/* From uiverse.io by @meermubashar */
+.contact-button {
+  width: 140px;
+  height: 45px;
+  font-size: 23px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  position: relative;
+  transition: all 0.5s;
+  z-index: 1;
+  text-decoration: none;
+  margin-left: 3rem;
+}
+
+.contact-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background-color: white;
+  z-index: -1;
+  transition: all 0.5s;
+}
+
+.contact-button:hover::before {
+  width: 100%;
+}
+
+.contact-button:hover {
+  color: black;
+}
+
+.contact-button:active:before {
+  background: #b9b9b9;
+}
+
 /*Colors*/
 /*Fonts*/
 /*Width*/
