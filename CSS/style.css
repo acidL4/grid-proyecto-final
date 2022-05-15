@@ -11326,6 +11326,15 @@ font-weight
   padding: 0;
 }
 
+.w-90 {
+  width: 90%;
+}
+
+.contact-form {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
 /*Colors*/
 /*Fonts*/
 /*Width*/
@@ -11589,8 +11598,8 @@ button:hover .button-text {
 
   .media-desktop {
     display: flex;
-    justify-content: space-between;
-    width: 45%;
+    justify-content: space-evenly;
+    width: 55%;
   }
 }
 /*Colors*/
