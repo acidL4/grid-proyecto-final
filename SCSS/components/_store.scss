@@ -24,7 +24,8 @@
         color: $title-color;
         font-family: $title-font;
         text-align: center;
-        font-size: $title-size;        
+        font-size: $title-size;
+        padding: 0;       
 }
 
 .card{
@@ -48,4 +49,8 @@
             color: black;
         }
     }
+}
+
+.col-md-4{
+    padding-right: 0;
 }

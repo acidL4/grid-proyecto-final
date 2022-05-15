@@ -11262,6 +11262,7 @@ font-weight
   font-family: "Bebas Neue", cursive;
   text-align: center;
   font-size: 3rem;
+  padding: 0;
 }
 
 .card .card-body {
@@ -11280,6 +11281,10 @@ font-weight
 }
 .card .card-body h5, .card .card-body .h5 {
   color: black;
+}
+
+.col-md-4 {
+  padding-right: 0;
 }
 
 /*Colors*/
