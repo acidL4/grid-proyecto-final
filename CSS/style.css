@@ -97,6 +97,7 @@ footer .footer_item {
   align-items: center;
   font-family: "Bebas Neue", cursive;
   font-size: small;
+  text-shadow: 3px 3px black;
 }
 footer .logo_footer {
   width: 15%;
