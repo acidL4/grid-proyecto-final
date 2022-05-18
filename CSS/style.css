@@ -194,6 +194,7 @@ font-weight
   color: aliceblue;
   font-family: "Bebas Neue", cursive;
   font-weight: bolder;
+  text-shadow: 3px 3px black;
 }
 
 .boton-form {
